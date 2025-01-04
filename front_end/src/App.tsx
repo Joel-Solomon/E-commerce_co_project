@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Item from './assets/components/item'
+//import Item from "./assets/components/item";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,12 @@ function App() {
           Here is a random button count is {count}
         </button>
       </div>
+      
+      <div className="dunno">
+        <Item></Item>;
+        <h2>dunno how to do tdcxfghhissdfg lmao ;P</h2>
+      </div>
+      
     </>
   )
 }
