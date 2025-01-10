@@ -1,8 +1,10 @@
 import Item from "./Item"
+import React from "react"
+
 
 function ProductList(){
     return (
-        <div style={{ display: "flex", gap: "30px", margin: 30}}>
+        <div>
             <Item/><Item/><Item/><Item/><Item/>
         </div>
     )
