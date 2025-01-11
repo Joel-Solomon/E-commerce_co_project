@@ -3,8 +3,8 @@ import {ItemBS} from "./Item"
 
 function ProductList({}){
     return (
-        <div style = {{display: "flex", margin : 10, }}>
-            <Item/><Item/><Item/><Item/><Item/><Item/><Item/>
+        <div style = {{display: "flex" }}>
+            <Item/><Item/><Item/><Item/><Item/><Item/><Item/><Item/><Item/><Item/>
         </div>
     )
 }

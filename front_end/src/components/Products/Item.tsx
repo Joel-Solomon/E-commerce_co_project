@@ -5,9 +5,9 @@ function Item({}) {
         height: 280,
         width: 190,
         backgroundColor: "#D49F9F",
-        textAlign: "center",
+        
         borderRadius: 5,
-        margin: 30
+        margin: 10
       }}
     >
       <h1
