@@ -1,15 +1,15 @@
 import "./App.css";
-import ProductList from "./components/Products/ProductList";
+import ProductList, { ProdListBS } from "./components/Products/ProductList";
 
 function App() {
   return (
     <>
       <div className="best_deals">
-        <div>
+        <div style={{textAlign: "left"}}>
           <h1>E-commerce CoProject</h1>
         </div>
         <div>
-          <ProductList/>
+          <ProdListBS />
         </div>
       </div>
 
@@ -19,6 +19,6 @@ function App() {
         <h2></h2>
       </div>
     </>
-  );
+  )
 }
-export default App;
+export default App

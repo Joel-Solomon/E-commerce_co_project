@@ -1,9 +1,4 @@
 function Item({}) {
-  // const CardStyling = {}
-  // if (name)
-  //     return <h1 style={{color: "red"}}>ITEM {name} CARD</h1>;
-  // return <h1>Hello World!</h1>
-
   return (
     <div
       style={{
@@ -12,6 +7,7 @@ function Item({}) {
         backgroundColor: "#D49F9F",
         textAlign: "center",
         borderRadius: 5,
+        margin: 30
       }}
     >
       <h1
@@ -33,4 +29,35 @@ function Item({}) {
   );
 }
 
+function ItemBS ({}){
+  return (
+    <div
+      style={{
+        height: 200,
+        width: 170,
+        backgroundColor: "#D49F9F",
+        textAlign: "center",
+        borderRadius: 5,
+        margin: 10
+      }}
+    >
+      <h1
+        style={{
+          padding: "10px 10px",
+          textAlign: "center",
+          color: "white",
+          fontSize: 20,
+
+        }}
+      >
+        ENTER BEST SELLERS
+      </h1>
+      <p style={{ fontSize: 10, textAlign: "left", padding: "0px 10px" }}>
+        Description: Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum{" "}
+      </p>
+    </div>
+  )
+}
+
 export default Item;
+export {ItemBS};

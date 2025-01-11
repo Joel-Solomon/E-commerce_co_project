@@ -1,12 +1,21 @@
 import Item from "./Item"
-import React from "react"
+import {ItemBS} from "./Item"
 
-
-function ProductList(){
+function ProductList({}){
     return (
-        <div>
-            <Item/><Item/><Item/><Item/><Item/>
+        <div style = {{display: "flex", margin : 10, }}>
+            <Item/><Item/><Item/><Item/><Item/><Item/><Item/>
         </div>
     )
 }
+
+function ProdListBS({}){
+    return (
+        <div style = {{display: "flex"}}>
+            <ItemBS /><ItemBS /><ItemBS /><ItemBS /><ItemBS />
+        </div>
+    )
+}
+
 export default ProductList;
+export {ProdListBS};
